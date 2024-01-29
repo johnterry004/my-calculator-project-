@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgba(3, 25, 71, 0.758),rgba(57, 9, 81, 0.637));
+   
+}
+.container{
+    height: 100vh;
+    width: 95vw;
+    display: grid;
+    place-items: center;
+}
+.click{
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 270px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.convert{
+    margin-left: 300px;
+    background: transparent;
+}
+.calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 35px #ffffff;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 5px rgb(235, 229, 229), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background:transparent;
+    font-size: 30px;
+    color: #000000;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.buttons1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.buttons2:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.buttons3:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.buttons4:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.buttons5:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+form .display {
+    margin: 0 10px;
+    height: 100px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 0;
+    display: flexbox;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #070707;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    background: transparent;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 130px;
+}
+.calculator.dark {
+    background-color: #f7ffff;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #fafafa;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #000000;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+    border-top: 4px solid #000;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+
+
+
